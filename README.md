@@ -81,9 +81,13 @@ This project is a secure ATM interface application developed during my internshi
 4. **Database Setup:**
     - Create a MySQL database and configure the application properties in `backend/src/main/resources/application.properties`:
         ```properties
-        spring.datasource.url=jdbc:mysql://localhost:3306/atm_database
-        spring.datasource.username=root
-        spring.datasource.password=yourpassword
+server.port=8080
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url= *Database URL
+spring.datasource.username= *Database Username
+spring.datasource.password= *Database Password
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
         ```
     - Run the SQL scripts to set up the initial database schema (if any).
 
