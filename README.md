@@ -1,5 +1,5 @@
-# Oasis Infobyte Internship  
-# ATM Interface Project
+# Oasis Infobyte Internship Project
+# ATM Interface
 
 ## Technologies Used
 - **Backend:** Spring Boot (Java)
